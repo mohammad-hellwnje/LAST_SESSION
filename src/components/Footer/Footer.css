@@ -1,0 +1,16 @@
+.MH-Footer {
+    padding: 39.5px 40px;
+    text-align: center;
+    background-color:black ;
+}
+.MH-Footer p {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+}
+@media (max-width:768px) {
+    .MH-Footer p {
+        font-size: 18px;
+    }
+}

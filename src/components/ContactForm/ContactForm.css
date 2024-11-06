@@ -1,0 +1,26 @@
+.MH-form {
+    width: 49.075%;
+}
+.MH-form input , .MH-form textarea{
+    width: 100%;
+    padding: 21px 30px;
+    margin-bottom: 20px;
+    background-color: #F3F3F3;
+    border: none;
+}
+.MH-form textarea {
+    height: 232px;
+    margin-bottom: 40px;
+}
+.MH-form button {
+    padding: 25px 82px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 24px;
+}
+@media(max-width:768px) {
+    .MH-form {
+        width: 100%;
+    }
+}

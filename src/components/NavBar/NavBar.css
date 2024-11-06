@@ -1,0 +1,60 @@
+.MH-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 100px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.MH-navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+}
+.MH-navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+.MH-icon {
+    display: none;
+}
+.MH-navbar.Scrol {
+    background-color: black;
+}
+.MH-navbar.Scrol ul li a {
+    color: white;
+}
+.MH-navbar.Scrol .MH-icon {
+    color: white;
+}
+@media (max-width:768px) {
+    .MH-navbar ul {
+        display: none;
+    }
+    .MH-icon {
+        display: block;
+    }
+    .MH-navbar {
+        padding: 23px 40px;
+    }
+    .MH-nav-Links.open {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
+    .MH-navbar.Scrol ul li a {
+        color: black;
+    }
+}

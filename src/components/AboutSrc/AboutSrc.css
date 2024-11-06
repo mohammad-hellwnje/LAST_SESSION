@@ -1,0 +1,20 @@
+.MH-AboutSrc {
+    padding: 71px 100px;
+}
+.MH-AboutSrc .MH-p {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.MH-AboutSrc .green {
+    background-color: #009379;
+    color: white;
+}
+.MH-sp {
+    margin-bottom: 0;
+}
+@media(max-width:768px) {
+    .MH-AboutSrc {
+        padding: 71px 40px;
+    }
+}
